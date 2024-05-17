@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "d1532dda-eefb-48f6-aada-39f509e2e0e7",
+		"name": "My work",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26126042"
+	},
+	"item": [
+		{
+			"name": "https://sisclientweb-700031.campusnexus.cloud/ds/campusnexus/AcademicStatuses",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "GK$AI2024",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "gkumar@700031cm.onmicrosoft.com",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://sisclientweb-700031.campusnexus.cloud/ds/campusnexus/AcademicStatuses",
+					"protocol": "https",
+					"host": [
+						"sisclientweb-700031",
+						"campusnexus",
+						"cloud"
+					],
+					"path": [
+						"ds",
+						"campusnexus",
+						"AcademicStatuses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://sisclientweb-700031.campusnexus.cloud/ds/campusnexus/AcademicStatuses(1)",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "GK$AI2024",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "gkumar@700031cm.onmicrosoft.com",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://sisclientweb-700031.campusnexus.cloud/ds/campusnexus/AcademicStatuses(1)",
+					"protocol": "https",
+					"host": [
+						"sisclientweb-700031",
+						"campusnexus",
+						"cloud"
+					],
+					"path": [
+						"ds",
+						"campusnexus",
+						"AcademicStatuses(1)"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
